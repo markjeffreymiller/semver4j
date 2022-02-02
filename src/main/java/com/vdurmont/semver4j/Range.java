@@ -4,8 +4,8 @@ import java.util.Objects;
 
 // TODO doc
 public class Range {
-    protected final Semver version;
-    protected final RangeOperator op;
+    public final Semver version;
+    public final RangeOperator op;
 
     public Range(Semver version, RangeOperator op) {
         this.version = version;
